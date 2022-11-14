@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 
 app = Flask(__name__)
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:////home/ivan/Escritorio/Entrevista Tecnica/We are Data lab colombia or Datalab/04 - akuro remota/2/blog-flask/database/blog.db"
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:////home/ivan/Escritorio/blog-flask/database/blog.db"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 db = SQLAlchemy(app)
 
