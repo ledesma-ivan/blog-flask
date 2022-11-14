@@ -24,7 +24,7 @@ The objective of this project is to further deepen the concepts of flask by deve
 
 `1.4. templates/` : This folder contains pages that are made with html.
 
-`1.7. Dockefile/` : Also, little to say about this container 
+`1.5. Dockefile/` : Also, little to say about this container 
 
 
 
