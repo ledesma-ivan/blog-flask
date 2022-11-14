@@ -19,9 +19,11 @@ The objective of this project is to further deepen the concepts of flask by deve
 
 `1.2. database/` : This folder contain the database we are going to use.
 
-`1.3. static/` : This folder contains the static files that we are going to use as for example the css.
+`1.3. requirements.txt` : This file contains the libraries we are going to use
 
-`1.4. templates/` : This folder contains pages that are made with html.
+`1.4. static/` : This folder contains the static files that we are going to use as for example the css.
+
+`1.5. templates/` : This folder contains pages that are made with html.
 
 
 
