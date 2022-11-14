@@ -6,7 +6,6 @@ The objective of this project is to further deepen the concepts of flask by deve
             ├── app.py
             ├── database
             │   └── blog.db
-            ├── Dockerfile
             ├── README.md
             ├── requirements.txt
             ├── static
@@ -24,22 +23,11 @@ The objective of this project is to further deepen the concepts of flask by deve
 
 `1.4. templates/` : This folder contains pages that are made with html.
 
-`1.5. Dockefile` : Also, little to say about this container 
 
 
-
-## **Installation**
-
-You can use `Docker` to easily install all the needed packages and libraries.
+### Run Flask
 
 ```bash
-$ docker build -t blog-flask -f Dockerfile .
-```    
-
-### Run Docker
-
-```bash
-$ docker run -d -p 5000:5000 blog-flask
-```    
-
+$ python3 app.py
+```
 
